@@ -3,21 +3,37 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec3 {
-    public static void main(String[] args) {
-String Cidade,Estado;
-Estado= JOptionPane.showInputDialog("Digite o Estado;");
-System.out.println("Estado:" + Estado);
 
-        Cidade= JOptionPane.showInputDialog("Digite a Cidade;");
-        System.out.println("Cidade:" + Cidade);
-
-
-        System.out.println("Cidade:" + Cidade);
-
-
-        System.out.println("Estado:" + Estado);
+    public static String exibirDoisValoresTrocados(String cidade,String estado){
+        return "Estado : " + estado + " - " + " Cidade : " + cidade;
     }
-    }
+}
+
+
+
+
+
+
+
+
+//    public static void main(String[] args) {
+//String Cidade,Estado;
+//Estado= JOptionPane.showInputDialog("Digite o Estado;");
+//System.out.println("Estado:" + Estado);
+//
+//        Cidade= JOptionPane.showInputDialog("Digite a Cidade;");
+//        System.out.println("Cidade:" + Cidade);
+//
+//
+//        System.out.println("Cidade:" + Cidade);
+//
+//
+//        System.out.println("Estado:" + Estado);
+//    }
+//    }
+
+
+
 //Ex1:
 //Inicio Algoritmo
 //    Declarar variáveis do tipo texto : nome, sobrenome;

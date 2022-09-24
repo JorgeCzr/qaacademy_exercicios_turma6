@@ -13,7 +13,7 @@ package Exercicios_medium;
 //System.out.println("O resto da divisao e: " + resto);
 
 public class Exec1 {
-    public static void main(String[] args) {
+    public  void exibirParImpar() {
         int i = 0;
         while (i <= 100) {
             if (i % 2 == 0) {

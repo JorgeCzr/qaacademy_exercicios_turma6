@@ -1,27 +1,45 @@
 package exercicios_easy;
-//Faça um algoritmo para ler um número inteiro,
-//armazenar em uma variável, calcular o dobro, e exibir
 
 import javax.swing.*;
 
+//4-)  Faça um algoritmo para ler um número inteiro,
+//armazenar em uma variável, calcular o dobro, e exibir.
+
 public class Exec4 {
-    public static void main(String[] args) {
-        //Declarar variável do tipo numérico : num1, result;
-   int num1,result;
-   //num1 = Ler(6);
-   num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um Numero"));
-   //          result= num1*2;
-        result = num1*2;
-        //        Exibir: " O Dobro é: + result;"
-        System.out.println("O Dobro é:" + result);
 
+    public static String calculaDobroNumeroInt(String dobro,int num1){
+      return dobro + num1 * 2;
     }
-
 }
 
-//Inicio Algoritmo
-//    Declarar variável do tipo numérico : num1, result;
-//    num1 =  Ler(6);
-//    result= num1*2;
-//    Exibir: “O dobro é: ” + result;
-//Fim Algoritmo
+
+
+
+
+
+
+//}inicio da classe
+
+//    public static void main(String[] args) {
+////    Declarar variável do tipo numérico: numero;
+//        int num1;
+//        // numero = Ler ();
+//        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
+//        //        Exibir: numero*2;
+//        System.out.println("O dobro é " + num1 * 2);
+//
+//    }
+//
+//
+//} //fim da classe
+
+
+//
+//    Inicio Algoritmo
+///    Declarar variável do tipo numérico: numero;
+//        numero = Ler (10);
+//        Exibir: numero*2;
+//        Fim Algoritmo
+//    }
+
+

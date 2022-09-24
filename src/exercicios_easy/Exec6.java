@@ -4,17 +4,23 @@ package exercicios_easy;
 //exibir exame.
 import javax.swing.*;
 
-public class Exec6 {
-    public static void main(String[] args) {
-        int nota1,nota2,media;
-        nota1 = Integer.parseInt(JOptionPane.showInputDialog("Digite sua primeira nota"));
-        nota2 = Integer.parseInt(JOptionPane.showInputDialog("Digite sua segunda nota"));
-        media = (nota1 + nota2) / 2;
-        if (media > 5)
-        {System.out.println("Aprovado");}
-        if (media < 5)
-        {System.out.println("Reprovado");}
-        if (media == 5)
-        {System.out.println("Exame");}
-    }
-}
+//public class Exec6 {
+
+   // public int aprovadoReprovadoExame(int nota1 ,int nota2 ,int media) {
+
+
+    //}
+//}
+//    public static void main(String[] args) {
+//        int nota1,nota2,media;
+//        nota1 = Integer.parseInt(JOptionPane.showInputDialog("Digite sua primeira nota"));
+//        nota2 = Integer.parseInt(JOptionPane.showInputDialog("Digite sua segunda nota"));
+//        media = (nota1 + nota2) / 2;
+//        if (media > 5)
+//        {System.out.println("Aprovado");}
+//        if (media < 5)
+//        {System.out.println("Reprovado");}
+//        if (media == 5)
+//        {System.out.println("Exame");}
+//    }
+//}
