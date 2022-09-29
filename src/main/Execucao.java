@@ -26,13 +26,17 @@ public class Execucao {
 //        System.out.println(Exec5E1.exibirMultiplicação(5,6,7));
 //        System.out.println(Exec5E1.exibirMedia(10,20,30));
 
-        //Exec6 easy
-        // Exec6 Exec6 = new Exec6();
-        //  Exec1.exi
-        // }
-        //}
+//        //Exec6 easy
+//        Exec6 Exec6 = new Exec6();
+//        System.out.println(Exec6.primeiraNota(5));
+//        System.out.println(Exec6.segundaNota(5));
+//        System.out.println(Exec6.mediaNota)();
 
-        //Exec 7 easy
+
+    }
+
+}
+
 
 //Exec1 medium
 //        Exec1 Exec1 = new Exec1();
