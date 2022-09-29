@@ -4,7 +4,29 @@ package exercicios_easy;
 //exibir exame.
 import javax.swing.*;
 
-//public class Exec6 {
+public class Exec6 {
+
+    public static String verificaAprovacao(double nota1, double nota2) {
+        double resultado;
+        resultado = (nota1 + nota2) / 2;
+
+        if (resultado > 5) {
+            return "Você foi Aprovado , Parabéns!!! ";
+        }
+        if (resultado < 5) {
+            return ("Você foi Reprovado! ");
+        }
+        if (resultado == 5) {
+            return ("Você esta de Exame! ");
+        }
+        return "Não foi possivel calcular sua nota";
+    }
+
+}
+
+
+
+
 //    int nota1;
 //    int nota2;
 //    int media = (nota1 + nota2) / 2;

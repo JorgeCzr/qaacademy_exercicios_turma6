@@ -7,8 +7,10 @@ import javax.swing.*;
 
 public class Exec4 {
 
-    public static String calculaDobroNumeroInt(String dobro,int num1){
-      return dobro + num1 * 2;
+    public static int calculaDobroNumeroInt(int numeroDigitado){
+        int resultado;
+      resultado = numeroDigitado* 2;
+      return resultado;
     }
 }
 

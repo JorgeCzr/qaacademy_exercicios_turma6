@@ -5,21 +5,29 @@ package exercicios_easy;
 public class Exec5E1 {
 
     public int exibirSoma(int num1, int num2, int num3) {
-        return num1 + num2 + num3;
+        int soma;
+        soma = num1 + num2 + num3;
+        return soma;
 
     }
 
-    public int exibirSubtração(int num1, int num2, int num3) {
-        return num1 - num2 - num3;
+    public int exibirSubtracao(int num1, int num2, int num3) {
+        int subtracao;
+        subtracao = num1 - num2 - num3;
+        return subtracao;
 
     }
 
     public  int exibirMultiplicação(int num1, int num2, int num3) {
-        return num1 * num2 * num3;
+        int multiplicacao;
+        multiplicacao = num1 * num2 * num3;
+        return multiplicacao;
     }
 
-    public int exibirMedia(int num1, int num2, int num3 ) {
-        return (num1 + num2 + num3) / 3;
+    public int exibirMedia(int soma) {
+        int media;
+        media = (soma) / 3;
+        return media;
     }
 }
 
