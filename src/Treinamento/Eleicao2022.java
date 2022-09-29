@@ -1,5 +1,6 @@
 package Treinamento;
-
+// Comandos Subir projeto Github : git add . / git commit -m "texto" / git push
+// git status - Lista todos os arquivos novos ou modificados para serem commitadosgit status
 import javax.swing.*;
 
 public class Eleicao2022 {
