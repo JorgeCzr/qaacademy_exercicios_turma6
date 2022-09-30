@@ -62,6 +62,12 @@ public class Execucao {
 
         //Exec8 easy
 
+        double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
+        Exec8 exec8 = new Exec8();
+        System.out.println("O Imposto de Renda sera : " + Exec8.calcularImpostoDeRenda(salario));
+        double impostoDeRenda = Exec8.calcularImpostoDeRenda(salario);
+        System.out.println("O Salario Liquido será : " + Exec8.calcularSalarioLiquido(salario,impostoDeRenda));
+
 
 //Exec1 medium
 //        Exec1 Exec1 = new Exec1();
