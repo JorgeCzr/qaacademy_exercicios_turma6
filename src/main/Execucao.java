@@ -9,6 +9,8 @@ import javax.swing.*;
 
 public class Execucao {
     public static void main(String[] args) {
+
+
         //Exec2 easy
 //        Exec2 Exec2 = new Exec2();
 //        System.out.println(exercicios_easy.Exec2.lerEExibirPalavra("Brasilia"));
@@ -43,35 +45,22 @@ public class Execucao {
 //        System.out.println("A media dos numeros digitados é : " + exec5E1.exibirMedia(soma));
 //    }
 //}
-        //Exec6 easy
-        double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a sua primeira Nota"));
-        double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a sua segunda Nota"));
-
-        Exec6 exec6 = new Exec6();
-        System.out.println(Exec6.verificaAprovacao(nota1,nota2));
-
-    }
-}
-
-
-
-
-
-//        System.out.println(Exec5E1.exibirSoma(5,6,7));
-//        System.out.println(Exec5E1.exibirSubtração(50,5,2));
-//        System.out.println(Exec5E1.exibirMultiplicação(5,6,7));
-//        System.out.println(Exec5E1.exibirMedia(10,20,30));
-
 //        //Exec6 easy
-//        Exec6 Exec6 = new Exec6();
-//        System.out.println(Exec6.primeiraNota(5));
-//        System.out.println(Exec6.segundaNota(5));
-//        System.out.println(Exec6.mediaNota)();
+//        double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a sua primeira Nota"));
+//        double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a sua segunda Nota"));
+//
+//        Exec6 exec6 = new Exec6();
+//        System.out.println(Exec6.verificaAprovacao(nota1, nota2));
+//
+//    }
+//}
+//        //Exec7 easy
+//        double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
+//        Exec7 exec7 = new Exec7();
+//        System.out.println("O valor de INSS a ser pago referente a um salario de R$ " + salario + "  será de R$ " + Exec7.calcularSalarioInss(salario));
+//        JOptionPane.showMessageDialog(null, "O valor de INSS a ser pago referente a um salario de R$ " + salario + "  será de  R$ " + Exec7.calcularSalarioInss(salario));
 
-
-
-
-
+        //Exec8 easy
 
 
 //Exec1 medium
@@ -80,24 +69,5 @@ public class Execucao {
 //    }
 //    }
 
-
-//      {
-//        }
-//    }
-//}
-
-
-//    MetodoSemMain Metodo = new MetodoSemMain();
-//
-////Void
-//        Metodo.printarcores();
-//
-//                //Parametro
-//                System.out.println(Metodo.pais("Penta"+
-//                ""));
-//
-//                //Return sem Parametro
-//                System.out.println(Metodo.corinthians());
-//
-//                }
-//                }
+    }
+}

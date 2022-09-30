@@ -14,10 +14,10 @@ public class Exec6 {
             return "Você foi Aprovado , Parabéns!!! ";
         }
         if (resultado < 5) {
-            return ("Você foi Reprovado! ");
+            return "Você foi Reprovado! ";
         }
         if (resultado == 5) {
-            return ("Você esta de Exame! ");
+            return "Você esta de Exame! ";
         }
         return "Não foi possivel calcular sua nota";
     }
