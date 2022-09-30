@@ -7,11 +7,12 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec9 {
-    public static void main(String[] args) {
-        int num=0, i =1;
-        num = Integer.parseInt(JOptionPane.showInputDialog("Digite um Numero"));
+    public static void calcularTabuada(int numeroDigitado){
+        int i =1 , resultado;
+
        while (i<=10) {
-           System.out.println(num + " X " + i + " = " + num * i);
+           resultado = numeroDigitado * i;
+           System.out.println(numeroDigitado + " X " + i + " = " + resultado);
            i++;
        }
        }

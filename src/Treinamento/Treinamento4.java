@@ -10,7 +10,9 @@ public class Treinamento4 {
         dizimo = porcentagem / 100;
         salarioSemdizimo = salarioBruto - dizimo;
         System.out.println("Seu dizimo é = " + dizimo);
+        JOptionPane.showMessageDialog(null,"Seu dizimo é = R$ " + dizimo);
         System.out.println("Salario liquido após dizimar é = " + salarioSemdizimo);
+        JOptionPane.showMessageDialog(null,"Salario liquido após dizimar é = R$ " + salarioSemdizimo);
 
 
     }

@@ -62,11 +62,30 @@ public class Execucao {
 
         //Exec8 easy
 
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
-        Exec8 exec8 = new Exec8();
-        System.out.println("O Imposto de Renda sera : " + Exec8.calcularImpostoDeRenda(salario));
-        double impostoDeRenda = Exec8.calcularImpostoDeRenda(salario);
-        System.out.println("O Salario Liquido será : " + Exec8.calcularSalarioLiquido(salario,impostoDeRenda));
+//        double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
+//        Exec8 exec8 = new Exec8();
+//        System.out.println("O Imposto de Renda sera : " + Exec8.calcularImpostoDeRenda(salario));
+//        double impostoDeRenda = Exec8.calcularImpostoDeRenda(salario);
+//        System.out.println("O Salario Liquido será : " + Exec8.calcularSalarioLiquido(salario,impostoDeRenda));
+
+        //Exec9 easy
+//        Exec9 exec9 = new Exec9();
+//        int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+//        exec9.calcularTabuada(numeroDigitado);
+
+        //Exec 10
+        double valorTotal,valorInvestimento,valorJuros;
+        valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Por favor , digite um valor de Investimento"));
+        Exec10ex2 exec10ex2 = new Exec10ex2();
+        valorJuros = exec10ex2.calcularValorJuros(valorInvestimento);
+        valorTotal = valorJuros + valorInvestimento;
+
+        System.out.println("Valor investido: R$ " + valorInvestimento);
+        System.out.println("valor Juros: R$ " + valorJuros);
+        System.out.println("Valor Total com juros R$ " + valorTotal);
+
+
+
 
 
 //Exec1 medium
