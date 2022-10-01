@@ -5,14 +5,10 @@ import javax.swing.*;
 //- Faça um algoritmo para ler e exibir uma palavra
 public class Exec2 {
 
-    public static String lerEExibirPalavra(String brasil){
-        return "a Capital do Brasil é : " + brasil;
-
-
+    public static String lerEExibirPalavra(String palavra){
+        return " A Palavra é : " + palavra;
 
     }
-
-
     }
 
 

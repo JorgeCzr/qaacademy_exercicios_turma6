@@ -7,15 +7,27 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec10ex2 {
-    public double calcularValorJuros(double valorInvestimento){
-        double valorJuros = 0.0, taxaJuros = 0.05,ano = 1;
-        valorInvestimento = 1000;
+//    public double calcularValorJuros(double valorInvestimento){
+//        double valorJuros = 0.0, taxaJuros = 0.05,ano = 1;
+//        valorInvestimento = 1000;
+//
+//        while (ano <= 10) {
+//            valorJuros = (valorInvestimento * taxaJuros) + valorJuros;
+//            ano++;
+//        }
+//            return valorJuros;
+
+    //ex 2
+
+        public String calcularValorInvestimento(double valorInvestimento){
+        double valorJuros = 0.0, taxaJuros = 0.05, valorTotal = 0;
+        int ano = 1;
 
         while (ano <= 10) {
             valorJuros = (valorInvestimento * taxaJuros) + valorJuros;
             ano++;
         }
-            return valorJuros;
+            return "Valor dos juros = " + valorJuros + " - Valor investimento = " + valorInvestimento + " - Valor total = " + (valorJuros + valorInvestimento);
         }
 
 }

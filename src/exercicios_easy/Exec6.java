@@ -11,7 +11,7 @@ public class Exec6 {
         resultado = (nota1 + nota2) / 2;
 
         if (resultado > 5) {
-            return "Você foi Aprovado , Parabéns!!! ";
+            return "Voce foi Aprovado , Parabens!!! ";
         }
         if (resultado < 5) {
             return "Você foi Reprovado! ";

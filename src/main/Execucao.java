@@ -62,8 +62,8 @@ public class Execucao {
 //        double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
 //        Exec7 exec7 = new Exec7();
 //        System.out.println(Exec7.calcularSalarioInss(salario));
+//Ultima
 //        Exec8 easy
-//
 //        double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
 //        Exec8 exec8 = new Exec8();
 //        System.out.println("O Imposto de Renda sera : " + Exec8.calcularImpostoDeRenda(salario));
@@ -86,6 +86,10 @@ public class Execucao {
 //        System.out.println("valor Juros: R$ " + valorJuros);
 //        System.out.println("Valor Total com juros R$ " + valorTotal);
 //
+//        ex 2
+//        Exec10ex2 exec10ex2 = new Exec10ex2();
+//        System.out.println(exec10ex2.calcularValorInvestimento(2000));
+//
 //        Exec 11
 //
 //        int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
@@ -99,6 +103,8 @@ public class Execucao {
 //          Exec1.exibirParOuImpar();
 //
 //        Exec2 medium
+
+
 
 
     }
