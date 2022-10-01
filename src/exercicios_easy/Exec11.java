@@ -6,13 +6,15 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec11 {
-    public static void main(String[] args) {
-        int soma = 0, i = 1;
-        soma = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+    public static int somaDois(int numeroDigitado) {
+        int i = 1;
+
         while (i <= 100) {
-            soma = soma + 2;
-            System.out.println(soma);
+            numeroDigitado = numeroDigitado + 2;
             i++;
         }
+        return numeroDigitado;
+
     }
 }
+

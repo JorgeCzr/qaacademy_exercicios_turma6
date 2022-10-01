@@ -9,25 +9,52 @@ import javax.swing.*;
 //caso opte pelo float na variavel use o Float.parseFloat(JOptionPane.showInputDialog para ler
 
 public class Exec7 {
-    public static double calcularSalarioInss(double salario) {
+//    public static double calcularSalarioInss(double salario) {
+//        double inss = 0;
+//        if (salario <= 1045.00) {
+//            inss = salario * 0.075;
+//        }
+//        if (salario >= 1045.01 && salario <= 2089.60) {
+//            inss = salario * 0.09;
+//        }
+//
+//        if (salario >= 2089.61 && salario <= 3134.40) {
+//            inss = salario * 0.12;
+//        }
+//        if (salario >= 3134.41 && salario <= 6101.06) {
+//            inss = salario * 0.14;
+//        }
+//        if (salario > 6101.06) {
+//            inss = 854.15;
+//        }
+//        return inss;
+
+//    Ex: 2
+
+    public static String calcularSalarioInss(double salario) {
         double inss = 0;
         if (salario <= 1045.00) {
             inss = salario * 0.075;
+            return "O valor de INSS a ser pago será : " + inss;
         }
         if (salario >= 1045.01 && salario <= 2089.60) {
             inss = salario * 0.09;
+            return "O valor de INSS a ser pago será : " + inss;
         }
 
         if (salario >= 2089.61 && salario <= 3134.40) {
             inss = salario * 0.12;
+            return "O valor de INSS a ser pago será : " + inss;
         }
         if (salario >= 3134.41 && salario <= 6101.06) {
             inss = salario * 0.14;
+            return "O valor de INSS a ser pago será : " + inss;
         }
         if (salario > 6101.06) {
             inss = 854.15;
+            return "O valor de INSS a ser pago será : " + inss;
         }
-        return inss;
+        return null;
     }
 }
 
