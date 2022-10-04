@@ -20,7 +20,7 @@ import javax.swing.*;
 //
 // 0, 1, 1, 2, 3, 5, 8, ..
 public class Exec10 {
-    public static void main(String[] args) {
+    public void sequenciaFibonacci () {
 
         int elemento = 10;
         int[] fibonacci;

@@ -11,7 +11,7 @@ import javax.swing.*;
 //E exiba, o Nome e o número correspondente de
 //cada um.
 public class Exec9 {
-    public static void main(String[] args) {
+    public void  vetorNomeEnumero() {
         String[] alunoVetor = new String[5];
         int[] numeroAlunoVetor = new int[5];
         int i = 0;

@@ -2,7 +2,7 @@ package Exercicios_medium;
 
 //Faça um algoritmo para ler todos os meses do ano, armazene em um vetor.
 public class Exec7_8 {
-    public static void main(String[] args) {
+    public String[] criarVetorMeses() {
         //Exercicio 7
         String[] vetorMeses;
         vetorMeses = new String[12];
@@ -20,8 +20,12 @@ public class Exec7_8 {
         vetorMeses[10] = "Novembro";
         vetorMeses[11] = "Dezembro";
 
-        //Faça um algoritmo para exibir todos os meses digitados anteriormente.
-        //Exercicio 8
+       return vetorMeses;
+    }
+
+    //Faça um algoritmo para exibir todos os meses digitados anteriormente.
+    //Exercicio 8
+    public void imprimeValoresVetor(String[] vetorMeses) {
         int i = 0;
         while (i < 12) {
             System.out.println("O Mês: " + (i + 1) + "-" + vetorMeses[i]);

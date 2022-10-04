@@ -4,7 +4,7 @@ import javax.swing.*;
 
 ////Faça um algoritmo para ler 5 números, verificar e exibir, quais dos 5 números digitados, é o menor.
 public class Exec5 {
-    public static void main(String[] args) {
+    public void verificarMenorNum() {
         int numeroDigitado, menorNumero = 0, i = 1;
 
         while (i <= 5) {

@@ -6,10 +6,11 @@ import javax.swing.*;
 // exibir o valor investido,
 // valor dos juros, e o total. Considerando que a remuneração será no regime de juros compostos.
 public class Exec2 {
-    public static void main(String[] args) {
-        double investimento = 0, taxaJuros = 0.05, totalJuros;
+    public static void InvestimentoJurosComposto() {
+        double investimento = 10000, taxaJuros = 0.05, totalJuros;
         int ano = 1, tempoInvestido = 10;
-        investimento = Integer.parseInt(JOptionPane.showInputDialog("Valor Investimento"));
+
+        //investimento = Integer.parseInt(JOptionPane.showInputDialog("Valor Investimento"));
         totalJuros = investimento;
 
         while (ano <= tempoInvestido) {

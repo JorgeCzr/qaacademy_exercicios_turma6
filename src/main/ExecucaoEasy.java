@@ -1,13 +1,8 @@
 package main;
 
-import Exercicios_medium.Exec1;
-import Exercicios_medium.Exec5;
-import exemplos.MetodoSemMain;
-import exercicios_easy.*;
+import exercicios_easy.Exec2;
 
-import javax.swing.*;
-
-public class Execucao {
+public class ExecucaoEasy {
     public static void main(String[] args) {
 //
 //
@@ -95,16 +90,6 @@ public class Execucao {
 //        int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
 //        Exec11 exec11 = new Exec11();
 //        System.out.println(Exec11.somaDois(numeroDigitado));
-//
-//                                         Exercicos Medio
-//
-//        Exec1 medium
-//          Exec1 Exec1 = new Exec1();
-//          Exec1.exibirParOuImpar();
-//
-//        Exec2 medium
-
-
 
 
     }

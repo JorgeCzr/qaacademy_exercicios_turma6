@@ -7,21 +7,20 @@ import static org.junit.Assert.assertEquals;
 
 public class ExecEasyTest {
 
+    //Exec2
     @Test
     public void testDeJuncaoPalavra() {
         Exec2 exec2 = new Exec2();
         Exec2.lerEExibirPalavra("Bolsonaro");
         assertEquals(" A Palavra é : Bolsonaro", Exec2.lerEExibirPalavra("Bolsonaro"));
-
     }
 
+    //Exec3
 //    @Test
 //    public void exibirDoisValoresTrocados() {
 //        Exec3 exec3 = new Exec3();
 
-
-
-
+    //Exec4
     @Test
     public void testeDobro() {
         Exec4 exec4 = new Exec4();
@@ -29,6 +28,7 @@ public class ExecEasyTest {
         assertEquals(20, dobro);
     }
 
+    //Exec5
     @Test
     public void exibirSoma() {
         Exec5E1 exec5E1 = new Exec5E1();
@@ -60,10 +60,32 @@ public class ExecEasyTest {
 
     }
 
+    //Exec6
     @Test
-    public void verficarNota (){
-        Exec5E1 exec5E1 =new Exec5E1();
-        assertEquals("Voce foi Aprovado , Parabens!!! ",Exec6.verificaAprovacao(8,9));
+    public void verficarNotaAprovado() {
+        Exec5E1 exec5E1 = new Exec5E1();
+        assertEquals("Voce foi Aprovado , Parabens!!! ", Exec6.verificaAprovacao(8, 9));
     }
+
+    @Test
+    public void verficarNotaReprovado() {
+        Exec5E1 exec5E1 = new Exec5E1();
+        assertEquals("Você foi Reprovado! ", Exec6.verificaAprovacao(5, 2));
+
+    }
+
+    @Test
+    public void verficarNotaExame() {
+        Exec5E1 exec5E1 = new Exec5E1();
+        assertEquals("Você esta de Exame! ", Exec6.verificaAprovacao(5, 5));
+
+    }
+
+    //Exec7
+
+
 }
+
+
+
 
