@@ -38,8 +38,8 @@ public class ExecucaoMedium {
 //        exec9.vetorNomeEnumero();
 
 //        Exec10 Medium
-        Exec10 exec10 = new Exec10();
-        exec10.sequenciaFibonacci();
+//        Exec10 exec10 = new Exec10();
+//        exec10.sequenciaFibonacci();
 
 
     }

@@ -5,7 +5,9 @@ import javax.swing.*;
 public class Exec3 {
 
     public static String exibirDoisValoresTrocados(String cidade,String estado){
-        return "Estado : " + estado + " - " + " Cidade : " + cidade;
+        String primeiroValor = cidade;
+        String segundoValor = estado;
+        return "Estado : " + segundoValor + " - " + " Cidade : " + primeiroValor;
     }
 }
 

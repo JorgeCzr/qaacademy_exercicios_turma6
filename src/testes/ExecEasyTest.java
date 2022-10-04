@@ -1,6 +1,7 @@
 package testes;
 
 import exercicios_easy.*;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -11,14 +12,19 @@ public class ExecEasyTest {
     @Test
     public void testDeJuncaoPalavra() {
         Exec2 exec2 = new Exec2();
-        Exec2.lerEExibirPalavra("Bolsonaro");
+        // Exec2.lerEExibirPalavra("Bolsonaro");
         assertEquals(" A Palavra é : Bolsonaro", Exec2.lerEExibirPalavra("Bolsonaro"));
     }
 
     //Exec3
-//    @Test
-//    public void exibirDoisValoresTrocados() {
-//        Exec3 exec3 = new Exec3();
+    @Test
+    public void TestValoresTrocados() {
+        Exec3 exec3 = new Exec3();
+        String mensagemEsperada = "Estado : segundoValor -  Cidade : primeiroValor";
+        String mensagemAtual = Exec3.exibirDoisValoresTrocados("primeiroValor", "segundoValor");
+        assertEquals(mensagemEsperada, mensagemAtual);
+
+    }
 
     //Exec4
     @Test
@@ -85,6 +91,7 @@ public class ExecEasyTest {
 
 
 }
+
 
 
 
