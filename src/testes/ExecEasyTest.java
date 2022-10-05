@@ -30,8 +30,9 @@ public class ExecEasyTest {
     @Test
     public void testeDobro() {
         Exec4 exec4 = new Exec4();
-        int dobro = Exec4.calculaDobroNumeroInt(10);
-        assertEquals(20, dobro);
+        int valorEsperado = 20;
+        int valorAtual = Exec4.calculaDobroNumeroInt(10);
+        assertEquals(valorEsperado, valorAtual);
     }
 
     //Exec5
@@ -39,15 +40,14 @@ public class ExecEasyTest {
     public void exibirSoma() {
         Exec5E1 exec5E1 = new Exec5E1();
         int soma = exec5E1.exibirSoma(2, 2, 2);
-        assertEquals(6, 6);
+        assertEquals(6, soma);
 
     }
 
     @Test
     public void exibirsubtraçao() {
         Exec5E1 exec5E1 = new Exec5E1();
-        int subtracao = exec5E1.exibirSubtracao(50, 30, 10);
-        assertEquals(10, 10);
+        assertEquals(10, exec5E1.exibirSubtracao(50, 30, 10));
 
     }
 
@@ -55,28 +55,32 @@ public class ExecEasyTest {
     public void exibirMultiplicacao() {
         Exec5E1 exec5E1 = new Exec5E1();
         int multiplicacao = exec5E1.exibirMultiplicação(2, 2, 2);
-        assertEquals(8, 8);
+        assertEquals(8, multiplicacao);
     }
 
     @Test
     public void exibirMedia() {
         Exec5E1 exec5E1 = new Exec5E1();
         int media = exec5E1.exibirMedia(6);
-        assertEquals(2, 2);
+        assertEquals(2, media);
 
     }
 
     //Exec6
     @Test
     public void verficarNotaAprovado() {
-        Exec5E1 exec5E1 = new Exec5E1();
-        assertEquals("Voce foi Aprovado , Parabens!!! ", Exec6.verificaAprovacao(8, 9));
+        Exec6 exec6 = new Exec6();
+        String aprovado = Exec6.verificaAprovacao(7, 8);
+        assertEquals("Voce foi Aprovado , Parabens!!! ", aprovado);
+
     }
 
     @Test
     public void verficarNotaReprovado() {
-        Exec5E1 exec5E1 = new Exec5E1();
-        assertEquals("Você foi Reprovado! ", Exec6.verificaAprovacao(5, 2));
+        Exec6 exec6 = new Exec6();
+        String mensagemEsperada = "Você foi Reprovado! ";
+        String mensagemAtual = Exec6.verificaAprovacao(5, 2);
+        assertEquals(mensagemEsperada, mensagemAtual);
 
     }
 
@@ -89,8 +93,52 @@ public class ExecEasyTest {
 
     //Exec7
 
+    @Test
+    public void testeCalcularSalarioInss1() {
+        Exec7 exec7 = new Exec7();
+        Double valorEsperado = 78.375;
+        double valorAtual = Exec7.calcularSalarioInss(1045.00);
+        assertEquals(valorEsperado, valorAtual, 3);
+    }
 
+    @Test
+    public void testeCalcularSalarioInss2() {
+        Exec7 exec7 = new Exec7();
+        Double valorEsperado = 94.05;
+        double valorAtual = Exec7.calcularSalarioInss(1045.01);
+        assertEquals(valorEsperado, valorAtual, 3);
+
+    }
+
+    @Test
+    public void testeCalcularSalarioInss3() {
+        Exec7 exec7 = new Exec7();
+        Double valorEsperado = 250.7532;
+        double valorAtual = Exec7.calcularSalarioInss(2089.61);
+        assertEquals(valorEsperado, valorAtual, 3);
+    }
+
+    @Test
+    public void testeCalcularSalarioInss4() {
+        Exec7 exec7 = new Exec7();
+        Double valorEsperado = 438.8174;
+        double valorAtual = Exec7.calcularSalarioInss(3134.41);
+        assertEquals(valorEsperado, valorAtual, 3);
+    }
+
+    @Test
+    public void testeCalcularSalarioInss5() {
+        Exec7 exec7 = new Exec7();
+        Double valorEsperado = 854.15;
+        double valorAtual = Exec7.calcularSalarioInss(6101.06);
+        assertEquals(valorEsperado, valorAtual, 3);
+
+    }
+
+    //Exec7/8
 }
+
+
 
 
 
