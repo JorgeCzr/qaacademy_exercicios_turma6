@@ -17,6 +17,8 @@ public class Exec2EasyTest {
 
 }
 
+//Sem retorno , por isso não foi necessario o assertEquals
+
 
 
 
