@@ -1,6 +1,10 @@
 package main;
 
+import exercicios_easy.Exec10ex2;
+import exercicios_easy.Exec11;
 import exercicios_easy.Exec2;
+
+import javax.swing.*;
 
 public class ExecucaoEasy {
     public static void main(String[] args) {
@@ -83,7 +87,7 @@ public class ExecucaoEasy {
 //
 //        ex 2
 //        Exec10ex2 exec10ex2 = new Exec10ex2();
-//        System.out.println(exec10ex2.calcularValorInvestimento(2000));
+//        System.out.println(exec10ex2.calcularValorInvestimento(1000));
 //
 //        Exec 11
 //

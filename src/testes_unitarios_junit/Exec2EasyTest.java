@@ -13,6 +13,7 @@ public class Exec2EasyTest {
         String mensagemEsperada =  " A Palavra é : palavra ";
         String mensagemAtual = Exec2.lerEExibirPalavra("palavra ");
         assertEquals(mensagemEsperada,mensagemAtual);
+
     }
 
 }

@@ -20,6 +20,7 @@ public class Exec7EasyTest {
         df = new DecimalFormat("#,###.00");
     }
 
+
     @Test
     public void testCalcularSalarioInss1() {
         String valorEsperado = "78,375";
@@ -60,3 +61,6 @@ public class Exec7EasyTest {
         assertEquals("Valor diferente do esperado", valorAtual, valorAtual);
     }
 }
+
+
+//Caso opte por Double no aasertEquals usar o delta 0.001 padrão
